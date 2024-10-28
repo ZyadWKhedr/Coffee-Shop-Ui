@@ -14,7 +14,7 @@ class CustomSearchBar extends StatelessWidget {
           borderRadius: BorderRadius.circular(10),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.1), // Shadow color
+              color: Colors.black.withOpacity(0.1), 
               blurRadius: 10, 
               offset: const Offset(0, 5), 
             ),
@@ -33,7 +33,7 @@ class CustomSearchBar extends StatelessWidget {
               ),
               filled: true,
               fillColor: Colors
-                  .transparent, // Transparent fill since the Container already handles the background
+                  .transparent, 
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10),
                 borderSide: const BorderSide(
