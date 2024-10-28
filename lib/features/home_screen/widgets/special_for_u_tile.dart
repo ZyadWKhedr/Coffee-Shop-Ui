@@ -19,33 +19,33 @@ class SpecialForUTile extends StatelessWidget {
         padding: const EdgeInsets.all(15),
         decoration: BoxDecoration(
           color: Colors.brown, 
-          borderRadius: BorderRadius.circular(20), // Rounded corners
+          borderRadius: BorderRadius.circular(20), 
         ),
         child: Row(
           children: [
-            // Image on the left
+           
             ClipRRect(
               borderRadius:
-                  BorderRadius.circular(8), // Rounded corners for image
+                  BorderRadius.circular(8), 
               child: Image.asset(
                 AssetData.specialCoffee,
-                width: 130, // Image size
+                width: 130, 
                 height: 150,
                 fit: BoxFit.fill,
               ),
             ),
-            const SizedBox(width: 15), // Space between image and text
+            const SizedBox(width: 15), 
 
-            // Description text on the right
+       
             Expanded(
               child: Text(
                 description,
                 style: const TextStyle(
-                  color: Colors.white, // White text
+                  color: Colors.white, 
                   fontSize: 16,
                 ),
-                maxLines: 2, // Limit the text to 2 lines
-                overflow: TextOverflow.ellipsis, // Ellipsis for long text
+                maxLines: 2, 
+                overflow: TextOverflow.ellipsis, 
               ),
             ),
           ],
