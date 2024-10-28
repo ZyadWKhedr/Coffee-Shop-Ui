@@ -24,7 +24,7 @@ class _CartScreenState extends State<CartScreen> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
-            Navigator.pop(context); // Back navigation
+            Navigator.pop(context); 
           },
         ),
         title: const Text('Cart'),
@@ -142,7 +142,7 @@ class _CartScreenState extends State<CartScreen> {
           actions: <Widget>[
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Close the dialog
+                Navigator.of(context).pop(); 
               },
               child: const Text('Cancel'),
             ),
@@ -151,7 +151,7 @@ class _CartScreenState extends State<CartScreen> {
                 setState(() {
                   cartItems.clear(); // Clear the cart
                 });
-                Navigator.of(context).pop(); // Close the dialog
+                Navigator.of(context).pop(); 
               },
               child: const Text(
                 'Clear',
