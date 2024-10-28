@@ -171,7 +171,7 @@ class _FavouritesPageState extends State<FavouritesPage> {
                   padding: const EdgeInsets.only(right: 30.0),
                   child: ElevatedButton(
                     onPressed: () {
-                      // Add buy now action here
+                      
                     },
                     child: const Text(
                       'Buy Now',
@@ -179,7 +179,7 @@ class _FavouritesPageState extends State<FavouritesPage> {
                     ),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.white,
-                      backgroundColor: Colors.brown, // Background color
+                      backgroundColor: Colors.brown, 
                       minimumSize: const Size(
                           220, 55), 
                     ),
@@ -204,8 +204,8 @@ class _FavouritesPageState extends State<FavouritesPage> {
         });
       },
       child: Container(
-        width: 160, // Wider container
-        height: 40, // Shorter height
+        width: 160, 
+        height: 40, 
         decoration: BoxDecoration(
           color: isSelected ? Colors.brown : Colors.white,
           borderRadius: BorderRadius.circular(20),
